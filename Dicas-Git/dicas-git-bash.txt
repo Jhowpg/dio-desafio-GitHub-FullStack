@@ -1,0 +1,38 @@
+=====================================================
+          DICAS RÁPIDAS: GIT BASH (WINDOWS)
+=====================================================
+
+1. NAVEGAÇÃO BÁSICA (Comandos Linux):
+-----------------------------------------------------
+- pwd           : Mostra em qual pasta você está agora.
+- ls            : Lista os arquivos da pasta atual.
+- ls -a         : Mostra arquivos ocultos (incluindo a pasta .git).
+- cd nome-pasta : Entra em uma pasta.
+- cd ..         : Volta para a pasta anterior.
+- clear         : Limpa a tela do terminal.
+
+2. ATALHOS QUE SALVAM TEMPO:
+-----------------------------------------------------
+- Tecla TAB     : Autocompleta nomes de arquivos e pastas.
+- Seta para CIMA: Volta aos comandos que você digitou antes.
+- CTRL + L      : Atalho rápido para limpar a tela.
+- Botão direito : No Git Bash, clicar com o botão direito costuma
+                  colar o texto automaticamente.
+
+3. STATUS E VERIFICAÇÃO:
+-----------------------------------------------------
+- git status    : O comando mais importante! Mostra o que está
+                  acontecendo no seu repositório.
+- git log       : Mostra o histórico de commits (aperte 'q' para sair).
+- git log --oneline : Mostra o histórico resumido em uma linha.
+
+4. FLUXO DE TRABALHO RÁPIDO:
+-----------------------------------------------------
+1º git add .                    (Prepara tudo)
+2º git commit -m "sua mensagem" (Salva localmente)
+3º git push                     (Envia para o GitHub)
+
+DICA DE OURO:
+Se o terminal "travar" em uma tela de texto (editor Vim),
+digite :q! e aperte ENTER para sair sem salvar.
+=====================================================
