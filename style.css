@@ -1,0 +1,31 @@
+#title, .subtitle, .post-title {
+    color: blue;
+}
+
+.post-title{
+    font-style: italic;
+    font-size: 16px;
+}
+
+.img-anime{
+    display: block;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.img-subtitle {
+    width: 100%;
+    height: auto;
+}
+
+li, ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
